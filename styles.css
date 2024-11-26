@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+
+body{
+	background-color : lightblue;
+}
+.container{
+	display : flex;
+    align-items : center;
+	justify-content: center;
+	padding : 100px;
+}
+.circle{
+	width : 30px;
+	height : 30px;
+	border : 5px solid grey;
+	border-radius : 50%;
+	text-align : center;
+	line-height : 30px;
+}
+
+.line{
+	height : 5px;
+	width : 80px;
+	background-color : grey;
+}
+
+.active{
+border : 5px solid blue;
+}
+
+.activeLine{
+background-color : blue;
+}
+
+.disabled{
+	background : grey !important;
+} 
+
+.button{
+	padding : 10px 30px;
+	border-radius : 10px;
+	border : none;
+	background-color: blue;
+	color : white;
+	font-size : 16px;
+	cursor : pointer;
+}
+
+.buttonContainer{
+	display : flex;
+	gap : 40px;
+	justify-content : center;
+}
+
+	
